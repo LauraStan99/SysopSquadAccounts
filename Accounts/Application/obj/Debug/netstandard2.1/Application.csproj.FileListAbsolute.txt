@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\bin\Debug\netstandard2.1\Application.deps.json
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\bin\Debug\netstandard2.1\Application.dll
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\bin\Debug\netstandard2.1\Application.pdb
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.Helpers.ApplicationErrors.resources
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.GenerateResource.cache
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
+C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb
