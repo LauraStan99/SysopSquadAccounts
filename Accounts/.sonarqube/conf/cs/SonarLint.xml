@@ -18,11 +18,11 @@
       <Value>false</Value>
     </Setting>
     <Setting>
-      <Key>sonar.cs.opencover.reportsPaths</Key>
+      <Key>sonar.cs.opencover.it.reportsPaths</Key>
       <Value>C:\Fac\SysopSquad\Backend\Accounts\Infrastructure.Tests\coverage.opencover.xml,C:\Fac\SysopSquad\Backend\Accounts\Core.Tests\coverage.opencover.xml,C:\Fac\SysopSquad\Backend\Accounts\Presentation.Tests\coverage.opencover.xml</Value>
     </Setting>
     <Setting>
-      <Key>sonar.cs.opencover.it.reportsPaths</Key>
+      <Key>sonar.cs.opencover.reportsPaths</Key>
       <Value>C:\Fac\SysopSquad\Backend\Accounts\Infrastructure.Tests\coverage.opencover.xml,C:\Fac\SysopSquad\Backend\Accounts\Core.Tests\coverage.opencover.xml,C:\Fac\SysopSquad\Backend\Accounts\Presentation.Tests\coverage.opencover.xml</Value>
     </Setting>
   </Settings>

@@ -1,0 +1,17 @@
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.deps.json
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\ref\Tests.Helpers.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Application.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Domain.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Application.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Domain.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csproj.AssemblyReference.cache
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.AssemblyInfoInputs.cache
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.AssemblyInfo.cs
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csproj.CoreCompileInputs.cache
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csproj.CopyComplete
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\ref\Tests.Helpers.dll
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.pdb

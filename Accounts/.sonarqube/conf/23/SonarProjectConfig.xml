@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
-  <AnalysisConfigPath>C:\Fac\SysopSquad\Backend\Accounts\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
-  <ProjectPath>C:\Fac\SysopSquad\Backend\Accounts\Infrastructure.Tests\Infrastructure.Tests.csproj</ProjectPath>
-  <FilesToAnalyzePath>C:\Fac\SysopSquad\Backend\Accounts\.sonarqube\conf\23\FilesToAnalyze.txt</FilesToAnalyzePath>
-  <OutPath>C:\Fac\SysopSquad\Backend\Accounts\.sonarqube\out\23</OutPath>
+  <AnalysisConfigPath>C:\Fac\SysopSquadAccounts\Accounts\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\Presentation.Tests.csproj</ProjectPath>
+  <FilesToAnalyzePath>C:\Fac\SysopSquadAccounts\Accounts\.sonarqube\conf\23\FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>C:\Fac\SysopSquadAccounts\Accounts\.sonarqube\out\23</OutPath>
   <ProjectType>Test</ProjectType>
-  <TargetFramework>net6.0</TargetFramework>
+  <TargetFramework>net5.0</TargetFramework>
 </SonarProjectConfig>

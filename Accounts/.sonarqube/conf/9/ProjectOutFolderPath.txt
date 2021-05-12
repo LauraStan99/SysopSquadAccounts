@@ -1,1 +1,1 @@
-C:\Fac\SysopSquad\Backend\Accounts\.sonarqube\out\9
+C:\Fac\SysopSquadAccounts\Accounts\.sonarqube\out\9

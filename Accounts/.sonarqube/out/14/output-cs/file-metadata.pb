@@ -1,0 +1,9 @@
+q
+hC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\AccountTests\LoginValidatorTest.csutf-8‚
+yC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\ConsultantTests\RegisterConsultantValidatorsTest.csutf-8€
+wC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\ConsultantTests\UpdateConsultantValidatorsTest.csutf-8v
+mC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\UserTests\RegisterUserValidatorsTest.csutf-8t
+kC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\UserTests\UpdateUserValidatorsTest.csutf-8y
+nC:\Users\a\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8€
+uC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8t
+iC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.AssemblyInfo.csutf-8

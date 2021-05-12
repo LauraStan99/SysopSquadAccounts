@@ -1,0 +1,31 @@
+Product projects
+---------------------------------------
+C:\Fac\SysopSquadAccounts\Accounts\Domain\Domain.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Application\Application.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\Tests.Helpers.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Persistence\Persistence.csproj
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\WebApi.csproj
+
+
+Test projects
+---------------------------------------
+C:\Fac\SysopSquadAccounts\Accounts\Core.Tests\Core.Tests.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\Presentation.Tests.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\Infrastructure.Tests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+
