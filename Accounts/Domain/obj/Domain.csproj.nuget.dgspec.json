@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj": {}
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj": {
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\obj\\",
+        "outputPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -49,11 +49,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.12.1, )"
+              "version": "[2.12.2, )"
             }
           },
           "imports": [

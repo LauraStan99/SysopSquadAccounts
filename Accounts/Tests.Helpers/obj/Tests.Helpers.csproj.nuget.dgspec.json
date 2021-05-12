@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {}
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\Application.csproj": {
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\Application.csproj",
+        "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\obj\\",
+        "outputPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj"
+              "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj": {
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Domain\\obj\\",
+        "outputPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -132,11 +132,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.12.1, )"
+              "version": "[2.12.2, )"
             }
           },
           "imports": [
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
+    "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj",
+        "projectUniqueName": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj",
         "projectName": "Tests.Helpers",
-        "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj",
+        "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Tests.Helpers\\obj\\",
+        "outputPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -189,8 +189,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\AN3\\SysopSquad\\Backend\\Accounts\\Application\\Application.csproj"
+              "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
+                "projectPath": "D:\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj"
               }
             }
           }
