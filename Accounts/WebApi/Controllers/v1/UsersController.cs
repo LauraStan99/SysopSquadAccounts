@@ -52,10 +52,10 @@ namespace WebApi.Controllers.v1
             return NotFound();
         }
 
-        [AllowAnonymous]
         [HttpPost("register")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterUserCommand command)
         {
             var user = await Mediator.Send(command);
