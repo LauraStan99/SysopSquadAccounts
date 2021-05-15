@@ -10,10 +10,10 @@ C:\Users\admin\Documents\AN3\SysopSquad\Backend\Accounts\Domain\obj\Debug\netsta
 C:\Fac\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.deps.json
 C:\Fac\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.dll
 C:\Fac\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.AssemblyReference.cache
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache

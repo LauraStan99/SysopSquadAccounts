@@ -25,7 +25,6 @@ C:\Fac\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.Helpers.RepositoryErrors.resources
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.GenerateResource.cache
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
@@ -36,3 +35,4 @@ C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.cspr
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache

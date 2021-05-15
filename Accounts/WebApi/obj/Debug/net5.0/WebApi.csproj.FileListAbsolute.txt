@@ -117,7 +117,6 @@ C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Persistence.pdb
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Domain.pdb
-C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.Validators.ValidationErrors.resources
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.csproj.GenerateResource.cache
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
@@ -134,3 +133,4 @@ C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.dll
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.csprojAssemblyReference.cache
