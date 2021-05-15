@@ -26,6 +26,7 @@ namespace Application.Features.ConsultantFeatures.Commands.RegisterConsultantCom
             Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
             consultant.PasswordHash = passwordHash;
             consultant.PasswordSalt = passwordSalt;
+            consultant.Availability = "Available";
             return await _repository.CreateAsync(consultant).HidePassword();
         }
     }
