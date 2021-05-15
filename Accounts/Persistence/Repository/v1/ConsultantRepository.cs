@@ -69,6 +69,16 @@ namespace Persistence.Repository.v1
                 foundEntity.NumberOfTickets = consultant.NumberOfTickets;
             }
 
+            if (consultant.TotalNumberOfTickets != 0)
+            {
+                foundEntity.TotalNumberOfTickets = consultant.TotalNumberOfTickets;
+            }
+
+            if (consultant.SolvedNumberOfTickets != 0)
+            {
+                foundEntity.SolvedNumberOfTickets = consultant.SolvedNumberOfTickets;
+            }
+
             if (consultant.PasswordHash != null && consultant.PasswordSalt != null)
             {
                 foundEntity.PasswordHash = consultant.PasswordHash;
