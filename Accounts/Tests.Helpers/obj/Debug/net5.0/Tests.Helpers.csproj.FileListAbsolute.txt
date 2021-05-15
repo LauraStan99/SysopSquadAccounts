@@ -15,3 +15,20 @@ C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.
 C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.dll
 C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\ref\Tests.Helpers.dll
 C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.deps.json
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\ref\Tests.Helpers.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Tests.Helpers.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Application.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Domain.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Application.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\bin\Debug\net5.0\Domain.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.AssemblyInfoInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.AssemblyInfo.cs
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csproj.CoreCompileInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.csproj.CopyComplete
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\ref\Tests.Helpers.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Tests.Helpers\obj\Debug\net5.0\Tests.Helpers.pdb

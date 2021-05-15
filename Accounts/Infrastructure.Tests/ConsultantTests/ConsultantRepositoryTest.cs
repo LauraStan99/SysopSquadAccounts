@@ -11,7 +11,8 @@ using Xunit;
 
 namespace Infrastructure.Tests.ConsultantTests
 {
-    public class ConsultantRepositoryTest : IClassFixture<DatabaseTest>
+    [Collection("Database collection")]
+    public class ConsultantRepositoryTest
     {
         private readonly IConsultantRepository _repository;
         private readonly DatabaseTest _database;

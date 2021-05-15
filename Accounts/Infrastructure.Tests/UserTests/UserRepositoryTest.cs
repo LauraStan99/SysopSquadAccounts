@@ -11,7 +11,8 @@ using Xunit;
 
 namespace Infrastructure.Tests.UserTests
 {
-    public class UserRepositoryTest : IClassFixture<DatabaseTest>
+    [Collection("Database collection")]
+    public class UserRepositoryTest
     {
         private readonly IUserRepository _repository;
         private readonly DatabaseTest _database;
