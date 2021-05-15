@@ -1,21 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {}
+    "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
+    "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\obj\\",
+        "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Andra\\.nuget\\packages\\",
+        "outputPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Andra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -28,8 +35,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj"
+              "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj"
               }
             }
           }
@@ -76,22 +83,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
+    "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
+        "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Andra\\.nuget\\packages\\",
+        "outputPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Andra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -140,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

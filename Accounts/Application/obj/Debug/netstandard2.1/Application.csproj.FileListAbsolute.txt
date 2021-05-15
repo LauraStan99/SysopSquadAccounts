@@ -27,3 +27,17 @@ C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Applicat
 C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
 C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.deps.json
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Domain.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Domain.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.Helpers.ApplicationErrors.resources
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.GenerateResource.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CoreCompileInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb

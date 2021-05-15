@@ -8360,20 +8360,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {}
+    "C:\\Users\\Andra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
+      "projectUniqueName": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
       "projectName": "Presentation.Tests",
-      "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\obj\\",
+      "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
+      "packagesPath": "C:\\Users\\Andra\\.nuget\\packages\\",
+      "outputPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Andra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -8386,11 +8396,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Fac\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
-              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj"
+            "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
+              "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj"
             },
-            "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj"
+            "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj": {
+              "projectPath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj"
             }
           }
         }
@@ -8461,7 +8471,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

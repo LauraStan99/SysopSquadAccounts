@@ -17,3 +17,12 @@ C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb

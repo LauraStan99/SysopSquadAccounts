@@ -36,3 +36,22 @@ C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.deps.json
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.pdb
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.Helpers.RepositoryErrors.resources
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.GenerateResource.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
