@@ -25,4 +25,4 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netst
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.AssemblyReference.cache
+C:\Fac\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache

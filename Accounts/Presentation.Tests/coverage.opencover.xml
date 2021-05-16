@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="1491" visitedSequencePoints="714" numBranchPoints="102" visitedBranchPoints="6" sequenceCoverage="47.88" branchCoverage="5.88" maxCyclomaticComplexity="91" minCyclomaticComplexity="25" visitedClasses="42" numClasses="100" visitedMethods="142" numMethods="251" />
   <Modules>
-    <Module hash="0CDFFF50-8AC8-4325-8264-8D6BFB8E8096">
+    <Module hash="A7FF5C70-DB56-4A89-AD00-4205391D787E">
       <ModulePath>Application.dll</ModulePath>
-      <ModuleTime>2021-05-16T03:34:56</ModuleTime>
+      <ModuleTime>2021-05-16T04:08:41</ModuleTime>
       <ModuleName>Application</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Application\DependencyInjection.cs" />
@@ -1288,9 +1288,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="7D687B91-1956-42E3-B270-BAF6E3C7991E">
+    <Module hash="BB5B5063-817D-4326-9B5E-94722CE9DE55">
       <ModulePath>Domain.dll</ModulePath>
-      <ModuleTime>2021-05-16T03:34:56</ModuleTime>
+      <ModuleTime>2021-05-16T04:08:41</ModuleTime>
       <ModuleName>Domain</ModuleName>
       <Files>
         <File uid="28" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\Consultant.cs" />
@@ -1557,9 +1557,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="72E1A56F-4FE6-48DF-BE37-8A955BE4DA05">
+    <Module hash="7A3C3E1F-08F3-4358-97D1-5E8DEE5EC5D9">
       <ModulePath>Persistence.dll</ModulePath>
-      <ModuleTime>2021-05-16T03:34:56</ModuleTime>
+      <ModuleTime>2021-05-16T04:08:41</ModuleTime>
       <ModuleName>Persistence</ModuleName>
       <Files>
         <File uid="33" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Persistence\DependencyInjection.cs" />
@@ -2364,9 +2364,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="3EBC3EA8-5FA6-48B7-B07E-B6179B314759">
+    <Module hash="D13C41F9-DE09-48E5-B93E-8D80ADEDFE59">
       <ModulePath>Tests.Helpers.dll</ModulePath>
-      <ModuleTime>2021-05-16T03:34:56</ModuleTime>
+      <ModuleTime>2021-05-16T04:08:41</ModuleTime>
       <ModuleName>Tests.Helpers</ModuleName>
       <Files>
         <File uid="42" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\UserFactories\RegisterUserCommandFactory.cs" />
@@ -3587,9 +3587,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="5DFFD735-74A0-484F-97BE-030B75C46C2E">
+    <Module hash="5E5C6469-15E2-4CF6-827B-6E28021D07B6">
       <ModulePath>WebApi.dll</ModulePath>
-      <ModuleTime>2021-05-16T03:34:56</ModuleTime>
+      <ModuleTime>2021-05-16T04:08:41</ModuleTime>
       <ModuleName>WebApi</ModuleName>
       <Files>
         <File uid="49" fullPath="C:\Fac\SysopSquadAccounts\Accounts\WebApi\Program.cs" />

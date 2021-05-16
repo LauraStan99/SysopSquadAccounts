@@ -40,4 +40,4 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.AssemblyReference.cache
+C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
