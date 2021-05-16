@@ -7,7 +7,6 @@ using Application.Interfaces;
 using Domain.Entities;
 using FluentAssertions;
 using Moq;
-using Tests.Helpers;
 using Tests.Helpers.ConsultantFactories;
 using Xunit;
 

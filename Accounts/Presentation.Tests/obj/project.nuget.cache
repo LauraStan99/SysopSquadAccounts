@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZcOvgwWFcqieimOXytSirF4ahb/CvAqH4xYYsn6CRFJ8xEYpWSgfmx7MpmxsWXzEDayqEEg3bz4yAD5KlAOKSw==",
+  "dgSpecHash": "TnA5lzrkHJV/TI2BmEuPNZn/i2R+EE67FzmRtOCXRLa0YGhBBW+NrzH3q3DxFULIYk83vrvzmb9N2jnx+JeWew==",
   "success": true,
   "projectFilePath": "E:\\facultate\\Anul III\\TSP.NET\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Andra\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Andra\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\Andra\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\Andra\\.nuget\\packages\\fakeiteasy\\7.0.2\\fakeiteasy.7.0.2.nupkg.sha512",
     "C:\\Users\\Andra\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\Andra\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
     "C:\\Users\\Andra\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.0.4\\fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",

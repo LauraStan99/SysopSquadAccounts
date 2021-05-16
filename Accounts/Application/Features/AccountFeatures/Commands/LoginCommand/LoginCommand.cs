@@ -1,6 +1,5 @@
 ﻿using Domain.Common;
 using MediatR;
-using System.ComponentModel.DataAnnotations;
 
 namespace Application.Features.AccountFeatures.Commands.LoginCommand
 {

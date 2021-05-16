@@ -10,7 +10,7 @@ using MediatR;
 
 namespace Application.Features.AccountFeatures.Commands.LoginCommand
 {
-    class LoginCommandHandler: IRequestHandler<LoginCommand, ResponseEntity>
+    public class LoginCommandHandler: IRequestHandler<LoginCommand, ResponseEntity>
     {
         private readonly IAccountRepository _repository;
         private readonly IMapper _mapper;

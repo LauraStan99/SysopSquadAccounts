@@ -46,8 +46,11 @@ namespace Persistence.Repository.v1
             return true;
         }
 
-        public async Task<TEntity> CreateAsync(TEntity entity)
+        public async Task<TEntity> CreateAsync(TEntity entity, string password)
         {
+            Password.CreatePasswordHash(password, out byte[] passwordHash, out byte[] passwordSalt);
+            entity.PasswordHash = passwordHash;
+            entity.PasswordSalt = passwordSalt;
             await _context.GetCollection<TEntity>().InsertOneAsync(entity);
             return entity;
         }

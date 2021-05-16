@@ -5,7 +5,6 @@ using MongoDB.Driver;
 using Application.Helpers;
 using System.Linq;
 using Application.Features.ConsultantFeatures.Queries.GetBestConsultantQuery;
-using MongoDB.Bson;
 
 namespace Persistence.Repository.v1
 {

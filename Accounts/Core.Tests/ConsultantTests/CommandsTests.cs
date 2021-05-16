@@ -4,7 +4,6 @@ using Application.Features.ConsultantFeatures.Commands.DeleteConsultantByIdComma
 using Application.Interfaces;
 using FluentAssertions;
 using Moq;
-using Tests.Helpers;
 using Tests.Helpers.ConsultantFactories;
 using Xunit;
 
@@ -12,6 +11,7 @@ namespace Core.Tests.ConsultantTests
 {
     public class CommandsTests
     {
+        
         [Fact]
         public async Task GivenAnId_WhenDeleteConsultantByIdCommandHandler_ThenReturnTrue()
         {
@@ -25,5 +25,6 @@ namespace Core.Tests.ConsultantTests
 
             result.Should().BeTrue();
         }
+
     }
 }

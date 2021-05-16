@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using Application.Helpers;
 using Application.Interfaces;
 using AutoMapper;
-using Domain.Common;
 using Domain.Entities;
 using MediatR;
 
@@ -23,11 +22,11 @@ namespace Application.Features.ConsultantFeatures.Commands.RegisterConsultantCom
         public async Task<Consultant> Handle(RegisterConsultantCommand request, CancellationToken cancellationToken)
         {
             var consultant = _mapper.Map<Consultant>(request);
-            Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
-            consultant.PasswordHash = passwordHash;
-            consultant.PasswordSalt = passwordSalt;
+            //Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
+            //consultant.PasswordHash = passwordHash;
+            //consultant.PasswordSalt = passwordSalt;
             consultant.Availability = "Available";
-            return await _repository.CreateAsync(consultant).HidePassword();
+            return await _repository.CreateAsync(consultant, request.Password).HidePassword();
         }
     }
 }

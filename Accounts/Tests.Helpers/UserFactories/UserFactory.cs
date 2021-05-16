@@ -17,6 +17,19 @@ namespace Tests.Helpers.UserFactories
                 TicketsId = { "6075e868974ac5357820d428" }
             };
         }
+        public static User AddedValidUserWithUniqueEmail(IApplicationDbContext context)
+        {
+            var user = new User
+            {
+                Username = "Cozma",
+                Location = "Romania/Iasi/Iasi",
+                Email = "cozmaunique@gmail.com",
+                Type = "Client",
+                TicketsId = { "6075e868974ac5357820d428" }
+            };
+            context.GetCollection<User>().InsertOne(user);
+            return user; 
+        }
         public static User ValidUserWithId()
         {
             return new User

@@ -5,7 +5,6 @@ using Application.Interfaces;
 using Domain.Entities;
 using FluentAssertions;
 using Infrastructure.Tests.Helpers;
-using Tests.Helpers;
 using Tests.Helpers.ConsultantFactories;
 using Xunit;
 
@@ -27,8 +26,9 @@ namespace Infrastructure.Tests.ConsultantTests
         public async Task GivenAnUser_WhenCreateAsync_ThenReturnUserEntity()
         {
             var consultant = ConsultantFactory.ValidConsultant();
+            var password = "1234";
 
-            var result = await _repository.CreateAsync(consultant);
+            var result = await _repository.CreateAsync(consultant, password);
 
             result.Should().BeOfType<Consultant>();
             result.Id.Should().Be(consultant.Id);

@@ -12,6 +12,7 @@ namespace Infrastructure.Tests.Helpers
         public IApplicationDbContext DbContext { get; }
         public IUserRepository UserRepository { get; }
         public IConsultantRepository ConsultantRepository { get; }
+        public IAccountRepository AccountRepository { get; }
 
         public DatabaseTest()
         {
@@ -20,6 +21,7 @@ namespace Infrastructure.Tests.Helpers
             DbContext = new ApplicationDbContext(ConnectionDatabase.DbContextSettings);
             UserRepository = new UserRepository(DbContext);
             ConsultantRepository = new ConsultantRepository(DbContext);
+            AccountRepository = new AccountRepository(DbContext);
         }
 
         public void Dispose()

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Presentation.Tests/1.0.0": {
         "dependencies": {
+          "FakeItEasy": "7.0.2",
           "FluentAssertions": "5.10.3",
           "MSTest.TestAdapter": "2.1.1",
           "MSTest.TestFramework": "2.1.1",
@@ -76,6 +77,17 @@
           "lib/netstandard2.1/DnsClient.dll": {
             "assemblyVersion": "1.4.0.0",
             "fileVersion": "1.4.0.0"
+          }
+        }
+      },
+      "FakeItEasy/7.0.2": {
+        "dependencies": {
+          "Castle.Core": "4.4.0"
+        },
+        "runtime": {
+          "lib/net5.0/FakeItEasy.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.2.0"
           }
         }
       },
@@ -1733,6 +1745,13 @@
       "sha512": "sha512-CO1NG1zQdV0nEAXmr/KppLZ0S1qkaPwV0kPX5YPgmYBtrBVh1XMYHM54IXy3RBJu1k4thFtpzwo4HNHqxiuFYw==",
       "path": "dnsclient/1.4.0",
       "hashPath": "dnsclient.1.4.0.nupkg.sha512"
+    },
+    "FakeItEasy/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fiI9h1ziOgF29qVUD8AB5SgB8YBmosL8+Euk1jRiZ5t3FRXDAHxA6zhy/lAC/y6Et4YlgHYJFDcqBA+f5Zyrag==",
+      "path": "fakeiteasy/7.0.2",
+      "hashPath": "fakeiteasy.7.0.2.nupkg.sha512"
     },
     "FluentAssertions/5.10.3": {
       "type": "package",

@@ -18,7 +18,20 @@ namespace Tests.Helpers.ConsultantFactories
                 Availability = "available"
             };
         }
-
+        public static Consultant AddedValidConsultantWithUniqueEmail(IApplicationDbContext context)
+        {
+            var consultant = new Consultant
+            {
+                Username = "andu",
+                Location = "Iasi",
+                Email = "anduunique@gmail.com",
+                Skill = "software",
+                NumberOfTickets = 10,
+                Availability = "available"
+            };
+            context.GetCollection<Consultant>().InsertOne(consultant);
+            return consultant;
+        }
         public static Consultant ValidConsultantWithId()
         {
             return new Consultant
