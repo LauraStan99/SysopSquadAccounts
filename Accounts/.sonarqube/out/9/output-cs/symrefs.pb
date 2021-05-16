@@ -11,17 +11,14 @@ EC:\Fac\SysopSquadAccounts\Accounts\Application\DependencyInjection.cs
 B J  “
 mC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommand.cs
 
- 
+ 
 
-		 
+ 
 
-
-
- Ð
+		 Ð
 tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommandHandler.cs
 
-
- 2
+ $2
 , 7  (# .   
 ! (   
 
@@ -57,7 +54,7 @@ tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Command
   &
 C J1 8
 
-^ oÉ
+^ oÕ
 ŠC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommand.cs
 
  *
@@ -70,24 +67,24 @@ tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Command
 
  
 
- ¦
+ 
+
+ "ð
 ‘C:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommandHandler.cs
 
- 1
-/ :  $
-! (  $
+ 1
+/ :  $
+! (  $
 
- /
-F P $
-Z ` 
+ /
+F P $
+Z ` 
 
-& ,
-G N5 <( /
+& ,
+G N5 <= D
 
-b s(
-   1 ;
-E Q& 2
-^ j& 2ý
+b s
+  1 ;•
 ŽC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommand.cs
 
  ,
@@ -106,7 +103,11 @@ tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Command
 
  "
 
- "´
+ "
+
+ '
+
+ (´
 •C:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommandHandler.cs
 
  3
@@ -218,24 +219,22 @@ xC:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\R
 
  
 
- “
+ Ó
 C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\RegisterUserCommand\RegisterUserCommandHandler.cs
 
- +
-) 4  $
-! (  
+ +
+) 4  $
+! (  
 
- )
-: D $
-N T 
+ )
+: D $
+N T 
 
-  &
-; B) 0( /
+  &
+; B) 07 >
 
-V g(
-   1 5
-E Q  ,
-^ j  ,Ò
+V g
+ 1 5Ò
 |C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\UpdateUserByIdCommand\UpdateUserByIdCommand.cs
 
 		 &
@@ -371,7 +370,7 @@ RC:\Fac\SysopSquadAccounts\Accounts\Application\Interfaces\IConsultantRepository
 
 
 
-C H¬
+C H¸
 HC:\Fac\SysopSquadAccounts\Accounts\Application\Interfaces\IRepository.cs
 
   P
@@ -392,6 +391,8 @@ HC:\Fac\SysopSquadAccounts\Accounts\Application\Interfaces\IRepository.cs
  !
 
 * 0
+
+9 A
 
  !
 

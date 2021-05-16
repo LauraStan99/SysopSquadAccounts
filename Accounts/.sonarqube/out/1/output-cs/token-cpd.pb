@@ -67,66 +67,48 @@ AddMediatR 
 } 
 } …
 mC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommand.cs
-	namespace 	
-Application
+	namespace 	
+Application
  
-. 
-Features 
-. 
-AccountFeatures .
-.. /
-Commands/ 7
-.7 8
-LoginCommand8 D
-{ 
-public 
+. 
+Features 
+. 
+AccountFeatures .
+.. /
+Commands/ 7
+.7 8
+LoginCommand8 D
+{ 
+public 
 
-class 
-LoginCommand 
-: 
-IRequest '
-<' (
-ResponseEntity( 6
->6 7
-{ 
+class 
+LoginCommand 
+: 
+IRequest '
+<' (
+ResponseEntity( 6
+>6 7
+{ 
+public 
+string 
+Email 
+{ 
+get !
+;! "
+set# &
+;& '
+}( )
 public		 
-string		 
-Email		 
-{		 
-get		 !
-;		! "
-set		# &
-;		& '
-}		( )
-public
-
- 
-string
-
- 
-Password
-
- 
-{
-
-  
-get
-
-! $
-;
-
-$ %
-set
-
-& )
-;
-
-) *
-}
-
-+ ,
-} 
-} Ø
+string		 
+Password		 
+{		  
+get		! $
+;		$ %
+set		& )
+;		) *
+}		+ ,
+} 
+} √
 tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommandHandler.cs
 	namespace 	
 Application
@@ -139,17 +121,18 @@ tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Command
 Commands/ 7
 .7 8
 LoginCommand8 D
-{ 
-class 	
-LoginCommandHandler
- 
-: 
-IRequestHandler .
-<. /
-LoginCommand/ ;
-,; <
-ResponseEntity= K
->K L
+{ 
+public 
+
+class 
+LoginCommandHandler $
+:$ %
+IRequestHandler& 5
+<5 6
+LoginCommand6 B
+,B C
+ResponseEntityD R
+>R S
 { 
 private 
 readonly 
@@ -460,7 +443,8 @@ repository $
 ;< =
 } 	
 } 
-} ∏	
+} ÿ
+
 äC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommand.cs
 	namespace 	
 Application
@@ -538,152 +522,115 @@ Consultant6 @
 ;$ %
 set& )
 ;) *
-}+ ,
-} 
-} ä
+}+ ,
+public 
+string 
+Availability "
+{# $
+get% (
+;( )
+set* -
+;- .
+}/ 0
+} 
+} “
 ëC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommandHandler.cs
-	namespace
-
- 	
-Application
-
-
+	namespace		 	
+Application		
  
-.
+.		 
+Features		 
+.		 
+ConsultantFeatures		 1
+.		1 2
+Commands		2 :
+.		: ;%
+RegisterConsultantCommand		; T
+{
 
- 
-Features
-
- 
-.
-
- 
-ConsultantFeatures
-
- 1
-.
-
-1 2
-Commands
-
-2 :
-.
-
-: ;%
-RegisterConsultantCommand
-
-; T
-{ 
-public 
+ 
+public 
 
-class ,
- RegisterConsultantCommandHandler 1
-:2 3
-IRequestHandler4 C
-<C D%
-RegisterConsultantCommandD ]
-,] ^
+class ,
+ RegisterConsultantCommandHandler 1
+:2 3
+IRequestHandler4 C
+<C D%
+RegisterConsultantCommandD ]
+,] ^
 
-Consultant_ i
->i j
-{ 
+Consultant_ i
+>i j
+{ 
+private 
+readonly !
+IConsultantRepository .
+_repository/ :
+;: ;
 private 
-readonly !
-IConsultantRepository .
-_repository/ :
-;: ;
-private 
-readonly 
-IMapper  
-_mapper! (
-;( )
-public ,
- RegisterConsultantCommandHandler /
-(/ 0!
-IConsultantRepository0 E
+readonly 
+IMapper  
+_mapper! (
+;( )
+public ,
+ RegisterConsultantCommandHandler /
+(/ 0!
+IConsultantRepository0 E
 
-repositoryF P
-,P Q
-IMapperR Y
-mapperZ `
-)` a
-{ 	
-_repository 
-= 
+repositoryF P
+,P Q
+IMapperR Y
+mapperZ `
+)` a
+{ 	
+_repository 
+= 
 
-repository $
-;$ %
-_mapper 
-= 
-mapper 
-; 
-} 	
-public 
-async 
-Task 
-< 
+repository $
+;$ %
+_mapper 
+= 
+mapper 
+; 
+} 	
+public 
+async 
+Task 
+< 
 
-Consultant $
->$ %
-Handle& ,
-(, -%
-RegisterConsultantCommand- F
-requestG N
-,N O
-CancellationTokenP a
-cancellationTokenb s
-)s t
-{ 	
-var 
+Consultant $
+>$ %
+Handle& ,
+(, -%
+RegisterConsultantCommand- F
+requestG N
+,N O
+CancellationTokenP a
+cancellationTokenb s
+)s t
+{ 	
+var 
 
-consultant 
-= 
-_mapper $
-.$ %
-Map% (
-<( )
+consultant 
+= 
+_mapper $
+.$ %
+Map% (
+<( )
 
-Consultant) 3
->3 4
-(4 5
-request5 <
-)< =
-;= >
-Password 
-. 
-CreatePasswordHash '
-(' (
-request( /
-./ 0
-Password0 8
-,8 9
-out: =
-byte> B
-[B C
-]C D
-passwordHashE Q
-,Q R
-outS V
-byteW [
-[[ \
-]\ ]
-passwordSalt^ j
-)j k
-;k l
-
-consultant 
-. 
-PasswordHash #
-=$ %
-passwordHash& 2
-;2 3
+Consultant) 3
+>3 4
+(4 5
+request5 <
+)< =
+;= >
 
 consultant 
 . 
-PasswordSalt #
-=$ %
-passwordSalt& 2
-;2 3
+Availability #
+=$ %
+$str& 1
+;1 2
 return 
 await 
 _repository $
@@ -692,15 +639,19 @@ consultant 
 (0 1
 
 consultant1 ;
-); <
-.< =
-HidePassword= I
-(I J
-)J K
-;K L
+,; <
+request= D
+.D E
+PasswordE M
+)M N
+.N O
+HidePasswordO [
+([ \
+)\ ]
+;] ^
 } 	
 } 
-}   ¯
+}   √
 éC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommand.cs
 	namespace 	
 Application
@@ -813,9 +764,27 @@ Consultant7 A
 ;( )
 set* -
 ;- .
-}/ 0
-} 
-} ü
+}/ 0
+public 
+int  
+TotalNumberOfTickets '
+{( )
+get* -
+;- .
+set/ 2
+;2 3
+}4 5
+public 
+int !
+SolvedNumberOfTickets (
+{) *
+get+ .
+;. /
+set0 3
+;3 4
+}5 6
+} 
+} ü
 ïC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommandHandler.cs
 	namespace
 
@@ -1667,158 +1636,111 @@ xC:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\R
 ;) *
 }+ ,
 } 
-} ù
+} Ä
 C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\RegisterUserCommand\RegisterUserCommandHandler.cs
-	namespace
-
- 	
-Application
-
-
+	namespace		 	
+Application		
  
-.
+.		 
+Features		 
+.		 
+UserFeatures		 +
+.		+ ,
+Commands		, 4
+.		4 5
+RegisterUserCommand		5 H
+{
 
- 
-Features
-
- 
-.
-
- 
-UserFeatures
-
- +
-.
-
-+ ,
-Commands
-
-, 4
-.
-
-4 5
-RegisterUserCommand
-
-5 H
-{ 
-public 
+ 
+public 
 
-class &
-RegisterUserCommandHandler +
-:, -
-IRequestHandler. =
-<= >
-RegisterUserCommand> Q
-,Q R
-UserS W
->W X
-{ 
+class &
+RegisterUserCommandHandler +
+:, -
+IRequestHandler. =
+<= >
+RegisterUserCommand> Q
+,Q R
+UserS W
+>W X
+{ 
+private 
+readonly 
+IUserRepository (
+_repository) 4
+;4 5
 private 
-readonly 
-IUserRepository (
-_repository) 4
-;4 5
-private 
-readonly 
-IMapper  
-_mapper! (
-;( )
-public &
-RegisterUserCommandHandler )
-() *
-IUserRepository* 9
+readonly 
+IMapper  
+_mapper! (
+;( )
+public &
+RegisterUserCommandHandler )
+() *
+IUserRepository* 9
 
-repository: D
-,D E
-IMapperF M
-mapperN T
-)T U
-{ 	
-_repository 
-= 
+repository: D
+,D E
+IMapperF M
+mapperN T
+)T U
+{ 	
+_repository 
+= 
 
-repository $
-;$ %
-_mapper 
-= 
-mapper 
-; 
-} 	
-public 
-async 
-Task 
-< 
-User 
-> 
-Handle  &
-(& '
-RegisterUserCommand' :
-request; B
-,B C
-CancellationTokenD U
-cancellationTokenV g
-)g h
-{ 	
-var 
-user 
-= 
-_mapper 
-. 
-Map "
-<" #
-User# '
->' (
-(( )
-request) 0
-)0 1
-;1 2
-Password 
-. 
-CreatePasswordHash '
-(' (
-request( /
-./ 0
-Password0 8
-,8 9
-out: =
-byte> B
-[B C
-]C D
-passwordHashE Q
-,Q R
-outS V
-byteW [
-[[ \
-]\ ]
-passwordSalt^ j
-)j k
-;k l
-user 
-. 
-PasswordHash 
-= 
-passwordHash  ,
-;, -
-user 
-. 
-PasswordSalt 
-= 
-passwordSalt  ,
-;, -
-return 
-await 
-_repository $
-.$ %
-CreateAsync% 0
-(0 1
-user1 5
-)5 6
-.6 7
-HidePassword7 C
-(C D
-)D E
-;E F
-} 	
+repository $
+;$ %
+_mapper 
+= 
+mapper 
+; 
+} 	
+public 
+async 
+Task 
+< 
+User 
+> 
+Handle  &
+(& '
+RegisterUserCommand' :
+request; B
+,B C
+CancellationTokenD U
+cancellationTokenV g
+)g h
+{ 	
+var 
+user 
+= 
+_mapper 
+. 
+Map "
+<" #
+User# '
+>' (
+(( )
+request) 0
+)0 1
+;1 2
+return 
+await 
+_repository $
+.$ %
+CreateAsync% 0
+(0 1
+user1 5
+,5 6
+request7 >
+.> ?
+Password? G
+)G H
+.H I
+HidePasswordI U
+(U V
+)V W
+;W X
+} 	
 } 
 }   ¡
 |C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\UpdateUserByIdCommand\UpdateUserByIdCommand.cs
@@ -2780,7 +2702,7 @@ Consultant
 
 I J
 } 
-} ◊
+} ê
 HC:\Fac\SysopSquadAccounts\Accounts\Application\Interfaces\IRepository.cs
 	namespace 	
 Application
@@ -2851,8 +2773,11 @@ BaseEntity: D
 (! "
 TEntity" )
 entity* 0
-)0 1
-;1 2
+,0 1
+string2 8
+password9 A
+)A B
+;B C
 Task 
 < 
 TEntity 

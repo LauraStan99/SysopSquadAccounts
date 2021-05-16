@@ -1,4 +1,7 @@
-q
+h
+_C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ControllersTests\AccountControllerTest.csutf-8k
+bC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ControllersTests\ConsultantControllerTest.csutf-8e
+\C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ControllersTests\UserControllerTest.csutf-8q
 hC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\AccountTests\LoginValidatorTest.csutf-8‚
 yC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\ConsultantTests\RegisterConsultantValidatorsTest.csutf-8€
 wC:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\ValidatorsTests\ConsultantTests\UpdateConsultantValidatorsTest.csutf-8v

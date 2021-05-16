@@ -1,8 +1,8 @@
 ∫
 XC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\AccountFactories\LoginCommandFactory.cs 8r>	
- !#$%&'(*+,-./12345689:;<=?@ABCDEFÇ%&',-.345:;<ABCá
-YC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\ConsultantFactories\ConsultantFactory.cs 8rÑ	
- !"$%&'()*+-./012456789:;<>?@ABCDEFGHIJKLMNOPQRSUVWXYZ[\]^_abcdefghijklmnpqrtuvwxy{|}~ÄÅÇÉÑÖÜáÇ&'()*/016RS^cmnpqvwxyÑﬁ
+ !#$%&'(*+,-./12345689:;<=?@ABCDEFÇ%&',-.345:;<ABCß
+YC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\ConsultantFactories\ConsultantFactory.cs  	8	rù	
+ !"#$%&'()*+,-./12345678:;<=>?ABCDEFGHIKLMNOPQRSTUVWXYZ[\]^_`bcdefghijklnopqrstuvwxyz{}~ÅÇÉÑÖÜàâäãåçéèêëíìîÇ! !%34567<=>C_`kpz{}~ÉÑÖÜåëﬁ
 hC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\ConsultantFactories\RegisterConsultantCommandFactory.cs 8rL	
  !"$%&'()+,-./02345679;<=>?@BCDEFGIJKLMNPQRSTUVWXÇ !&'(-./456=>?DEFKLMæ
 jC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\ConsultantFactories\UpdateConsultantByIdCommandFactory.cs 8rD	
@@ -11,6 +11,8 @@ jC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\ConsultantFactories\UpdateCons
  !"#$%'()*+,./012356789:<=>?@ACDEFGHIKLMNOPRSTUVWYZ[\]^`abcdeghijklmopÇ%"#$)*+012789>?@EFGHMNOTUV[\]bcdijk©
 ^C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\UserFactories\UpdateUserByIdCommandFactory.cs 8r;	
  !"#$%&'(*+,-./012356789:;<=>@AÇ
-˘
-MC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\UserFactories\UserFactory.cs 	8	rÅ	
- !"#$%'()*+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPQRSTVWXYZ[\]^_`abcdefghijklnopqrstuvxyz{|}~ÄÅÇÉÇ"#$)*+,-1:ST^bklnostuv|Ä
+ô
+MC:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\UserFactories\UserFactory.cs! 
+8
+rö	
+ !"#$%&'()*+,-./012456789:;<=>?@ABCDEFGHIJKLNOPQRSTUVWXYZ[\]^_`acdefghijklmnopqrstuvwxy{|}~ÄÅÇÉÖÜáàâäãåçéèêÇ"#/016789:>G`akoxy{|ÄÅÇÉâç

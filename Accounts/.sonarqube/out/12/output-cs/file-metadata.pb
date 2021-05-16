@@ -1,4 +1,5 @@
-W
+T
+KC:\Fac\SysopSquadAccounts\Accounts\Core.Tests\AccountTests\CommandsTests.csutf-8W
 NC:\Fac\SysopSquadAccounts\Accounts\Core.Tests\ConsultantTests\CommandsTests.csutf-8V
 MC:\Fac\SysopSquadAccounts\Accounts\Core.Tests\ConsultantTests\QueriesTests.csutf-8Q
 HC:\Fac\SysopSquadAccounts\Accounts\Core.Tests\UserTests\CommandsTests.csutf-8P

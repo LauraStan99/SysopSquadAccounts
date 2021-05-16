@@ -324,3 +324,4 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Presentation.Tests\obj
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.pdb
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.genruntimeconfig.cache
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\FakeItEasy.dll
+C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\FakeItEasy.dll

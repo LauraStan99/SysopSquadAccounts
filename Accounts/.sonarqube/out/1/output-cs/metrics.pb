@@ -1,19 +1,21 @@
 e
 EC:\Fac\SysopSquadAccounts\Accounts\Application\DependencyInjection.cs 8r	
-ÇÇ
-mC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommand.cs 8r	
-Æ
+ÇÅ
+mC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommand.cs 8r
+	Æ
 tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Commands\LoginCommand\LoginCommandHandler.cs	 8r 	 !"#xÇ	 Ø
 éC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\DeleteConsultantByIdCommand\DeleteConsultantByIdCommand.cs 8r	
 Ç∫
 ïC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\DeleteConsultantByIdCommand\DeleteConsultantByIdCommandHandler.cs 8r	
-Ç°
-äC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommand.cs 8r	
-≈
-ëC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommandHandler.cs 8r
- Ç≠
-éC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommand.cs 8r	
-œ
+Ç¢
+äC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommand.cs 
+8
+r	
+≈
+ëC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\RegisterConsultantCommand\RegisterConsultantCommandHandler.cs 8jr	
+ ÇØ
+éC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommand.cs 8r	
+œ
 ïC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Commands\UpdateConsultantByIdCommand\UpdateConsultantByIdCommandHandler.cs 8r 
  !"#xÇ ì
 ÉC:\Fac\SysopSquadAccounts\Accounts\Application\Features\ConsultantFeatures\Queries\GetAllConsultantsQuery\GetAllConsultantsQuery.csr		
@@ -33,9 +35,9 @@ tC:\Fac\SysopSquadAccounts\Accounts\Application\Features\AccountFeatures\Command
 xC:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\RegisterUserCommand\RegisterUserCommand.cs 
 8
 r	
-≤
-C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\RegisterUserCommand\RegisterUserCommandHandler.cs 8r
- Çô
+∞
+C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\RegisterUserCommand\RegisterUserCommandHandler.cs 8jr	
+ Çô
 |C:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\UpdateUserByIdCommand\UpdateUserByIdCommand.cs 8r	
 Ω
 ÉC:\Fac\SysopSquadAccounts\Accounts\Application\Features\UserFeatures\Commands\UpdateUserByIdCommand\UpdateUserByIdCommandHandler.cs 8r 

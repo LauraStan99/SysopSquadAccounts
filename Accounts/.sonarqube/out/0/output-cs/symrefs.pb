@@ -41,7 +41,7 @@ BC:\Fac\SysopSquadAccounts\Accounts\Domain\Common\ResponseEntity.cs
 
  
 
- r
+ –
 @C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\Consultant.cs
 
  
@@ -50,7 +50,15 @@ BC:\Fac\SysopSquadAccounts\Accounts\Domain\Common\ResponseEntity.cs
 
  
 
-		 "Œ
+		 "
+
+
+
+ '
+
+ (
+
+ Œ
 :C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\User.cs
 
  

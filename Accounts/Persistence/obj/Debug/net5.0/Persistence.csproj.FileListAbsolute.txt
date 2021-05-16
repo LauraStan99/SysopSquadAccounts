@@ -35,7 +35,6 @@ C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.cspr
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.deps.json
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\ref\Persistence.dll
@@ -55,3 +54,4 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache

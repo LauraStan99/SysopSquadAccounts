@@ -726,7 +726,7 @@ WriteToken+++ 5
 ;-- 
 }.. 	
 }// 
-}00 „?
+}00 òQ
 TC:\Fac\SysopSquadAccounts\Accounts\Persistence\Repository\v1\ConsultantRepository.cs
 	namespace		 	
 Persistence		
@@ -939,112 +939,180 @@ ConsultantS ]
 ToListAsyncn y
 (y z
 )z {
-;{ |
-var 
-maxNumberOfTickets "
-=# $
-consultants% 0
-.0 1
-Max1 4
-(4 5
+;{ |
+if 
+( 
+consultants 
+. 
+Count  
+==! #
+$num$ %
+)% &
+{ 
+filter 
+= 
+Builders !
+<! "
 
-consultant5 ?
-=>@ B
-
-consultantC M
-.M N
-NumberOfTicketsN ]
-)] ^
-;^ _
-return 
-consultants 
-. 
-Find #
-(# $
-
-consultant$ .
-=>/ 1
-
-consultant2 <
-.< =
-NumberOfTickets= L
-==M O
-maxNumberOfTicketsP b
+Consultant" ,
+>, -
+.- .
+Filter. 4
+.4 5
+And5 8
+(8 9
+availabilityFilter9 K
+,K L!
+numberOfTicketsFilterM b
 )b c
-;c d
-}   	
-public"" 
-async"" 
-Task"" 
-<"" 
+;c d
+consultants   
+=   
+await   #
+_context  $ ,
+.  , -
+GetCollection  - :
+<  : ;
 
-Consultant"" $
->""$ %
-UpdateConsultant""& 6
-(""6 7
+Consultant  ; E
+>  E F
+(  F G
+)  G H
+.  H I
+	FindAsync  I R
+<  R S
 
-Consultant""7 A
+Consultant  S ]
+>  ] ^
+(  ^ _
+filter  _ e
+)  e f
+.  f g
+Result  g m
+.  m n
+ToListAsync  n y
+(  y z
+)  z {
+;  { |
+}!! 
+if"" 
+("" 
+consultants"" 
+."" 
+Count"" !
+==""" $
+$num""% &
+)""& '
+return""( .
+_context""/ 7
+.""7 8
+GetCollection""8 E
+<""E F
 
-consultant""B L
-)""L M
-{## 	
-var$$ 
-foundEntity$$ 
-=$$ 
-await$$ #
-GetByIdAsync$$$ 0
-($$0 1
+Consultant""F P
+>""P Q
+(""Q R
+)""R S
+.""S T
+	FindAsync""T ]
+(""] ^
 
-consultant$$1 ;
-.$$; <
-Id$$< >
-)$$> ?
-;$$? @
-if&& 
-(&& 
-UpdateHelper&& 
-.&& 
-	CheckNull&& &
-(&&& '
+consultant""^ h
+=>""i k
+true""l p
+)""p q
+.""q r
+Result""r x
+.""x y
+FirstOrDefault	""y á
+(
+""á à
+)
+""à â
+;
+""â ä
+var## 
+maxNumberOfTickets## "
+=### $
+consultants##% 0
+.##0 1
+Max##1 4
+(##4 5
 
-consultant&&' 1
-.&&1 2
-Email&&2 7
-)&&7 8
-)&&8 9
-{&&9 :
-foundEntity(( 
-.(( 
-Email(( !
-=((" #
+consultant##5 ?
+=>##@ B
 
-consultant(($ .
-.((. /
-Email((/ 4
-;((4 5
-})) 
-if++ 
-(++ 
-UpdateHelper++ 
-.++ 
-	CheckNull++ &
-(++& '
+consultant##C M
+.##M N
+NumberOfTickets##N ]
+)##] ^
+;##^ _
+return%% 
+consultants%% 
+.%% 
+Find%% #
+(%%# $
 
-consultant++' 1
-.++1 2
-Username++2 :
-)++: ;
-)++; <
-{,, 
+consultant%%$ .
+=>%%/ 1
+
+consultant%%2 <
+.%%< =
+NumberOfTickets%%= L
+==%%M O
+maxNumberOfTickets%%P b
+)%%b c
+;%%c d
+}&& 	
+public(( 
+async(( 
+Task(( 
+<(( 
+
+Consultant(( $
+>(($ %
+UpdateConsultant((& 6
+(((6 7
+
+Consultant((7 A
+
+consultant((B L
+)((L M
+{)) 	
+var** 
+foundEntity** 
+=** 
+await** #
+GetByIdAsync**$ 0
+(**0 1
+
+consultant**1 ;
+.**; <
+Id**< >
+)**> ?
+;**? @
+if,, 
+(,, 
+UpdateHelper,, 
+.,, 
+	CheckNull,, &
+(,,& '
+
+consultant,,' 1
+.,,1 2
+Email,,2 7
+),,7 8
+),,8 9
+{,,9 :
 foundEntity.. 
-... 
-Username.. $
-=..% &
+... 
+Email.. !
+=.." #
 
-consultant..' 1
-...1 2
-Username..2 :
-;..: ;
+consultant..$ .
+.... /
+Email../ 4
+;..4 5
 }// 
 if11 
 (11 
@@ -1055,18 +1123,18 @@ consultant..' 1
 
 consultant11' 1
 .111 2
-Location112 :
+Username112 :
 )11: ;
 )11; <
 {22 
 foundEntity44 
 .44 
-Location44 $
+Username44 $
 =44% &
 
 consultant44' 1
 .441 2
-Location442 :
+Username442 :
 ;44: ;
 }55 
 if77 
@@ -1077,20 +1145,20 @@ consultant44' 1
 (77& '
 
 consultant77' 1
-.771 2
-Availability772 >
-)77> ?
-)77? @
+.771 2
+Location772 :
+)77: ;
+)77; <
 {88 
 foundEntity:: 
-.:: 
-Availability:: (
-=::) *
+.:: 
+Location:: $
+=::% &
 
-consultant::+ 5
-.::5 6
-Availability::6 B
-;::B C
+consultant::' 1
+.::1 2
+Location::2 :
+;::: ;
 };; 
 if== 
 (== 
@@ -1100,119 +1168,182 @@ consultant::+ 5
 (==& '
 
 consultant==' 1
-.==1 2
-Skill==2 7
-)==7 8
-)==8 9
+.==1 2
+Availability==2 >
+)==> ?
+)==? @
 {>> 
 foundEntity@@ 
-.@@ 
-Skill@@ !
-=@@" #
+.@@ 
+Availability@@ (
+=@@) *
 
-consultant@@$ .
-.@@. /
-Skill@@/ 4
-;@@4 5
+consultant@@+ 5
+.@@5 6
+Availability@@6 B
+;@@B C
 }AA 
 ifCC 
-(CC 
+(CC 
+UpdateHelperCC 
+.CC 
+	CheckNullCC &
+(CC& '
 
-consultantCC 
-.CC 
-NumberOfTicketsCC *
-!=CC+ -
-$numCC. /
-)CC/ 0
+consultantCC' 1
+.CC1 2
+SkillCC2 7
+)CC7 8
+)CC8 9
 {DD 
-foundEntityEE 
-.EE 
-NumberOfTicketsEE +
-=EE, -
+foundEntityFF 
+.FF 
+SkillFF !
+=FF" #
 
-consultantEE. 8
-.EE8 9
-NumberOfTicketsEE9 H
-;EEH I
-}FF 
-ifHH 
-(HH 
+consultantFF$ .
+.FF. /
+SkillFF/ 4
+;FF4 5
+}GG 
+ifII 
+(II 
 
-consultantHH 
-.HH 
-PasswordHashHH '
-!=HH( *
-nullHH+ /
-&&HH0 2
-
-consultantHH3 =
-.HH= >
-PasswordSaltHH> J
-!=HHK M
-nullHHN R
-)HHR S
-{II 
-foundEntityJJ 
-.JJ 
-PasswordHashJJ (
-=JJ) *
-
-consultantJJ+ 5
-.JJ5 6
-PasswordHashJJ6 B
-;JJB C
+consultantII 
+.II 
+NumberOfTicketsII *
+!=II+ -
+$numII. /
+)II/ 0
+{JJ 
 foundEntityKK 
-.KK 
-PasswordSaltKK (
-=KK) *
+.KK 
+NumberOfTicketsKK +
+=KK, -
 
-consultantKK+ 5
-.KK5 6
-PasswordSaltKK6 B
-;KKB C
-}LL 
-awaitNN 
-_contextNN 
-.NN 
-GetCollectionNN (
-<NN( )
+consultantKK. 8
+.KK8 9
+NumberOfTicketsKK9 H
+;KKH I
+}LL 
+ifNN 
+(NN 
 
-ConsultantNN) 3
->NN3 4
-(NN4 5
-)NN5 6
-.NN6 7
-ReplaceOneAsyncNN7 F
-(NNF G
-filterNNG M
-:NNM N
+consultantNN 
+.NN  
+TotalNumberOfTicketsNN /
+!=NN0 2
+$numNN3 4
+)NN4 5
+{OO 
+foundEntityPP 
+.PP  
+TotalNumberOfTicketsPP 0
+=PP1 2
 
-consultantNNO Y
-=>NNZ \
+consultantPP3 =
+.PP= > 
+TotalNumberOfTicketsPP> R
+;PPR S
+}QQ 
+ifSS 
+(SS 
 
-consultantNN] g
-.NNg h
-IdNNh j
-==NNk m
-foundEntityNNn y
-.NNy z
-IdNNz |
-,NN| }
-replacement	NN~ â
+consultantSS 
+.SS !
+SolvedNumberOfTicketsSS 0
+!=SS1 3
+$numSS4 5
+)SS5 6
+{TT 
+foundEntityUU 
+.UU !
+SolvedNumberOfTicketsUU 1
+=UU2 3
+
+consultantUU4 >
+.UU> ?!
+SolvedNumberOfTicketsUU? T
+;UUT U
+}VV 
+ifXX 
+(XX 
+
+consultantXX 
+.XX 
+PasswordHashXX '
+!=XX( *
+nullXX+ /
+&&XX0 2
+
+consultantXX3 =
+.XX= >
+PasswordSaltXX> J
+!=XXK M
+nullXXN R
+)XXR S
+{YY 
+foundEntityZZ 
+.ZZ 
+PasswordHashZZ (
+=ZZ) *
+
+consultantZZ+ 5
+.ZZ5 6
+PasswordHashZZ6 B
+;ZZB C
+foundEntity[[ 
+.[[ 
+PasswordSalt[[ (
+=[[) *
+
+consultant[[+ 5
+.[[5 6
+PasswordSalt[[6 B
+;[[B C
+}\\ 
+await^^ 
+_context^^ 
+.^^ 
+GetCollection^^ (
+<^^( )
+
+Consultant^^) 3
+>^^3 4
+(^^4 5
+)^^5 6
+.^^6 7
+ReplaceOneAsync^^7 F
+(^^F G
+filter^^G M
+:^^M N
+
+consultant^^O Y
+=>^^Z \
+
+consultant^^] g
+.^^g h
+Id^^h j
+==^^k m
+foundEntity^^n y
+.^^y z
+Id^^z |
+,^^| }
+replacement	^^~ â
 :
-NNâ ä
+^^â ä
 foundEntity
-NNã ñ
+^^ã ñ
 )
-NNñ ó
+^^ñ ó
 ;
-NNó ò
-returnPP 
-foundEntityPP 
-;PP 
-}QQ 	
-}TT 
-}UU ˇG
+^^ó ò
+return`` 
+foundEntity`` 
+;`` 
+}aa 	
+}dd 
+}ee ˛L
 JC:\Fac\SysopSquadAccounts\Accounts\Persistence\Repository\v1\Repository.cs
 	namespace
 
@@ -1472,278 +1603,312 @@ consultant**  *
 (11. /
 TEntity11/ 6
 entity117 =
-)11= >
-{22 	
-await33 
-_context33 
-.33 
-GetCollection33 (
-<33( )
-TEntity33) 0
->330 1
-(331 2
-)332 3
-.333 4
-InsertOneAsync334 B
-(33B C
-entity33C I
-)33I J
-;33J K
-return44 
-entity44 
-;44 
-}55 	
-public77 
-async77 
-Task77 
-<77 
-TEntity77 !
->77! "
-UpdateAsync77# .
-(77. /
-TEntity77/ 6
-entity777 =
-)77= >
-{88 	
-var99 
-foundEntity99 
-=99 
-await99 #
-GetByIdAsync99$ 0
-(990 1
-entity991 7
-.997 8
-Id998 :
-)99: ;
-;99; <
-if:: 
-(:: 
-foundEntity:: 
-==:: 
-null:: #
-)::# $
-{;; 
-throw<< 
-new<< 
-ArgumentException<< +
-(<<+ ,
-RepositoryErrors<<, <
-.<<< =
-UserNotFound<<= I
-)<<I J
-;<<J K
-}== 
-if?? 
-(?? 
-!?? 
-string?? 
-.?? 
-IsNullOrWhiteSpace?? *
-(??* +
-entity??+ 1
-.??1 2
-Email??2 7
-)??7 8
-&&??9 ;
-entity??< B
-.??B C
-Email??C H
-!=??I K
-foundEntity??L W
-.??W X
-Email??X ]
-)??] ^
-{@@ 
-ifAA 
-(AA 
-awaitAA 
-CheckUniqueEmailAA *
-(AA* +
-entityAA+ 1
-.AA1 2
-EmailAA2 7
-)AA7 8
-)AA8 9
-throwBB 
-newBB 
-ArgumentExceptionBB /
-(BB/ 0
-RepositoryErrorsBB0 @
-.BB@ A
-EmailNotUniqueBBA O
-)BBO P
-;BBP Q
-foundEntityDD 
-.DD 
-EmailDD !
-=DD" #
-entityDD$ *
-.DD* +
-EmailDD+ 0
-;DD0 1
-}EE 
-ifFF 
-(FF 
-!FF 
-stringFF 
-.FF 
-IsNullOrWhiteSpaceFF *
-(FF* +
-entityFF+ 1
-.FF1 2
-UsernameFF2 :
-)FF: ;
-)FF; <
-{GG 
-foundEntityHH 
-.HH 
-UsernameHH $
-=HH% &
-entityHH' -
-.HH- .
-UsernameHH. 6
-;HH6 7
-}JJ 
-ifKK 
-(KK 
-!KK 
-stringKK 
-.KK 
-IsNullOrWhiteSpaceKK *
-(KK* +
-entityKK+ 1
-.KK1 2
-LocationKK2 :
-)KK: ;
-)KK; <
-{LL 
-foundEntityMM 
-.MM 
-LocationMM $
-=MM% &
-entityMM' -
-.MM- .
-LocationMM. 6
-;MM6 7
-}NN 
-ifOO 
-(OO 
-entityOO 
-.OO 
-PasswordHashOO #
-!=OO$ &
-nullOO' +
-&&OO, .
-entityOO/ 5
-.OO5 6
-PasswordSaltOO6 B
-!=OOC E
-nullOOF J
-)OOJ K
-{PP 
-foundEntityQQ 
-.QQ 
-PasswordHashQQ (
-=QQ) *
-entityQQ+ 1
-.QQ1 2
-PasswordHashQQ2 >
-;QQ> ?
-foundEntityRR 
-.RR 
-PasswordSaltRR (
-=RR) *
-entityRR+ 1
-.RR1 2
-PasswordSaltRR2 >
-;RR> ?
-}SS 
-awaitUU 
-_contextUU 
-.UU 
-GetCollectionUU (
-<UU( )
-TEntityUU) 0
->UU0 1
-(UU1 2
-)UU2 3
-.UU3 4
-ReplaceOneAsyncUU4 C
-(UUC D
-filterUUD J
-:UUJ K
-personUUL R
-=>UUS U
-personUUV \
-.UU\ ]
-IdUU] _
-==UU` b
-foundEntityUUc n
-.UUn o
-IdUUo q
-,UUq r
-replacementUUs ~
-:UU~ 
+,11= >
+string11? E
+password11F N
+)11N O
+{22 	
+Password33 
+.33 
+CreatePasswordHash33 '
+(33' (
+password33( 0
+,330 1
+out332 5
+byte336 :
+[33: ;
+]33; <
+passwordHash33= I
+,33I J
+out33K N
+byte33O S
+[33S T
+]33T U
+passwordSalt33V b
+)33b c
+;33c d
+entity44 
+.44 
+PasswordHash44 
+=44  !
+passwordHash44" .
+;44. /
+entity55 
+.55 
+PasswordSalt55 
+=55  !
+passwordSalt55" .
+;55. /
+await66 
+_context66 
+.66 
+GetCollection66 (
+<66( )
+TEntity66) 0
+>660 1
+(661 2
+)662 3
+.663 4
+InsertOneAsync664 B
+(66B C
+entity66C I
+)66I J
+;66J K
+return77 
+entity77 
+;77 
+}88 	
+public:: 
+async:: 
+Task:: 
+<:: 
+TEntity:: !
+>::! "
+UpdateAsync::# .
+(::. /
+TEntity::/ 6
+entity::7 =
+)::= >
+{;; 	
+var<< 
+foundEntity<< 
+=<< 
+await<< #
+GetByIdAsync<<$ 0
+(<<0 1
+entity<<1 7
+.<<7 8
+Id<<8 :
+)<<: ;
+;<<; <
+if== 
+(== 
+foundEntity== 
+==== 
+null== #
+)==# $
+{>> 
+throw?? 
+new?? 
+ArgumentException?? +
+(??+ ,
+RepositoryErrors??, <
+.??< =
+UserNotFound??= I
+)??I J
+;??J K
+}@@ 
+ifBB 
+(BB 
+!BB 
+stringBB 
+.BB 
+IsNullOrWhiteSpaceBB *
+(BB* +
+entityBB+ 1
+.BB1 2
+EmailBB2 7
+)BB7 8
+&&BB9 ;
+entityBB< B
+.BBB C
+EmailBBC H
+!=BBI K
+foundEntityBBL W
+.BBW X
+EmailBBX ]
+)BB] ^
+{CC 
+ifDD 
+(DD 
+awaitDD 
+CheckUniqueEmailDD *
+(DD* +
+entityDD+ 1
+.DD1 2
+EmailDD2 7
+)DD7 8
+)DD8 9
+throwEE 
+newEE 
+ArgumentExceptionEE /
+(EE/ 0
+RepositoryErrorsEE0 @
+.EE@ A
+EmailNotUniqueEEA O
+)EEO P
+;EEP Q
+foundEntityGG 
+.GG 
+EmailGG !
+=GG" #
+entityGG$ *
+.GG* +
+EmailGG+ 0
+;GG0 1
+}HH 
+ifII 
+(II 
+!II 
+stringII 
+.II 
+IsNullOrWhiteSpaceII *
+(II* +
+entityII+ 1
+.II1 2
+UsernameII2 :
+)II: ;
+)II; <
+{JJ 
+foundEntityKK 
+.KK 
+UsernameKK $
+=KK% &
+entityKK' -
+.KK- .
+UsernameKK. 6
+;KK6 7
+}MM 
+ifNN 
+(NN 
+!NN 
+stringNN 
+.NN 
+IsNullOrWhiteSpaceNN *
+(NN* +
+entityNN+ 1
+.NN1 2
+LocationNN2 :
+)NN: ;
+)NN; <
+{OO 
+foundEntityPP 
+.PP 
+LocationPP $
+=PP% &
+entityPP' -
+.PP- .
+LocationPP. 6
+;PP6 7
+}QQ 
+ifRR 
+(RR 
+entityRR 
+.RR 
+PasswordHashRR #
+!=RR$ &
+nullRR' +
+&&RR, .
+entityRR/ 5
+.RR5 6
+PasswordSaltRR6 B
+!=RRC E
+nullRRF J
+)RRJ K
+{SS 
+foundEntityTT 
+.TT 
+PasswordHashTT (
+=TT) *
+entityTT+ 1
+.TT1 2
+PasswordHashTT2 >
+;TT> ?
+foundEntityUU 
+.UU 
+PasswordSaltUU (
+=UU) *
+entityUU+ 1
+.UU1 2
+PasswordSaltUU2 >
+;UU> ?
+}VV 
+awaitXX 
+_contextXX 
+.XX 
+GetCollectionXX (
+<XX( )
+TEntityXX) 0
+>XX0 1
+(XX1 2
+)XX2 3
+.XX3 4
+ReplaceOneAsyncXX4 C
+(XXC D
+filterXXD J
+:XXJ K
+personXXL R
+=>XXS U
+personXXV \
+.XX\ ]
+IdXX] _
+==XX` b
+foundEntityXXc n
+.XXn o
+IdXXo q
+,XXq r
+replacementXXs ~
+:XX~ 
 foundEntity
-UUÄ ã
+XXÄ ã
 )
-UUã å
+XXã å
 ;
-UUå ç
-returnVV 
-foundEntityVV 
-;VV 
-}WW 	
-publicYY 
-asyncYY 
-TaskYY 
-<YY 
-boolYY 
->YY 
-DeleteAsyncYY  +
-(YY+ ,
-stringYY, 2
-idYY3 5
-)YY5 6
-{ZZ 	
-var[[ 
-deleteResult[[ 
-=[[ 
-await[[ $
-_context[[% -
-.[[- .
-GetCollection[[. ;
-<[[; <
-TEntity[[< C
->[[C D
-([[D E
-)[[E F
-.[[F G
-DeleteOneAsync[[G U
-([[U V
-user[[V Z
-=>[[[ ]
-user[[^ b
-.[[b c
-Id[[c e
-==[[f h
-id[[i k
-)[[k l
-;[[l m
-return]] 
-deleteResult]] 
-.]]  
-IsAcknowledged]]  .
-&&]]/ 1
-deleteResult]]2 >
-.]]> ?
-DeletedCount]]? K
->]]L M
-$num]]N O
-;]]O P
-}^^ 	
-}__ 
-}`` ú#
+XXå ç
+returnYY 
+foundEntityYY 
+;YY 
+}ZZ 	
+public\\ 
+async\\ 
+Task\\ 
+<\\ 
+bool\\ 
+>\\ 
+DeleteAsync\\  +
+(\\+ ,
+string\\, 2
+id\\3 5
+)\\5 6
+{]] 	
+var^^ 
+deleteResult^^ 
+=^^ 
+await^^ $
+_context^^% -
+.^^- .
+GetCollection^^. ;
+<^^; <
+TEntity^^< C
+>^^C D
+(^^D E
+)^^E F
+.^^F G
+DeleteOneAsync^^G U
+(^^U V
+user^^V Z
+=>^^[ ]
+user^^^ b
+.^^b c
+Id^^c e
+==^^f h
+id^^i k
+)^^k l
+;^^l m
+return`` 
+deleteResult`` 
+.``  
+IsAcknowledged``  .
+&&``/ 1
+deleteResult``2 >
+.``> ?
+DeletedCount``? K
+>``L M
+$num``N O
+;``O P
+}aa 	
+}bb 
+}cc ú#
 NC:\Fac\SysopSquadAccounts\Accounts\Persistence\Repository\v1\UserRepository.cs
 	namespace 	
 Persistence

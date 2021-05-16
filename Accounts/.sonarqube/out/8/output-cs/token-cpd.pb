@@ -374,7 +374,7 @@ BaseEntity" ,
 ;& '
 }( )
 } 
-} ‡
+} ê	
 @C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\Consultant.cs
 	namespace 	
 Domain
@@ -417,11 +417,54 @@ BaseEntity (
 ;		( )
 set		* -
 ;		- .
-}		/ 0
+}		/ 0
+public
+
+ 
+int
+
+  
+TotalNumberOfTickets
+
+ '
+{
+
+( )
+get
+
+* -
+;
+
+- .
+set
+
+/ 2
+;
+
+2 3
 }
 
- 
-} µ
+4 5
+public 
+int !
+SolvedNumberOfTickets (
+{) *
+get+ .
+;. /
+set0 3
+;3 4
+}5 6
+public 
+float 
+Score 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
+} 
+} µ
 :C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\User.cs
 	namespace 	
 Domain

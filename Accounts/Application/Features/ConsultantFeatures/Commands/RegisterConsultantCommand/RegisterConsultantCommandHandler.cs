@@ -22,9 +22,6 @@ namespace Application.Features.ConsultantFeatures.Commands.RegisterConsultantCom
         public async Task<Consultant> Handle(RegisterConsultantCommand request, CancellationToken cancellationToken)
         {
             var consultant = _mapper.Map<Consultant>(request);
-            //Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
-            //consultant.PasswordHash = passwordHash;
-            //consultant.PasswordSalt = passwordSalt;
             consultant.Availability = "Available";
             return await _repository.CreateAsync(consultant, request.Password).HidePassword();
         }

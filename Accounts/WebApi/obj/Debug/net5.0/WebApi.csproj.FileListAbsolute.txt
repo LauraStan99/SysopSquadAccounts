@@ -133,7 +133,6 @@ C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.dll
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
-C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.csprojAssemblyReference.cache
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\appsettings.Development.json
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\appsettings.json
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\WebApi.exe
@@ -202,3 +201,4 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.pdb
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
