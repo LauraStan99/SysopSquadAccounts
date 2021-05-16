@@ -10,8 +10,8 @@ C:\Fac\SysopSquadAccounts\Accounts\WebApi\WebApi.csproj
 Test projects
 ---------------------------------------
 C:\Fac\SysopSquadAccounts\Accounts\Core.Tests\Core.Tests.csproj
-C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\Infrastructure.Tests.csproj
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\Presentation.Tests.csproj
+C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\Infrastructure.Tests.csproj
 
 
 Invalid projects

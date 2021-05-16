@@ -22,9 +22,6 @@ namespace Application.Features.UserFeatures.Commands.RegisterUserCommand
         public async Task<User> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
             var user = _mapper.Map<User>(request);
-            //Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
-            //user.PasswordHash = passwordHash;
-            //user.PasswordSalt = passwordSalt;
             return await _repository.CreateAsync(user, request.Password).HidePassword();
         }
 

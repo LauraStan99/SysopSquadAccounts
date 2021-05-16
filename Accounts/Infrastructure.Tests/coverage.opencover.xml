@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="1491" visitedSequencePoints="0" numBranchPoints="102" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="91" minCyclomaticComplexity="25" visitedClasses="0" numClasses="100" visitedMethods="0" numMethods="251" />
   <Modules>
-    <Module hash="D4561C65-3DD9-45CD-8B00-2D6A4E91A3C4">
+    <Module hash="5323E9FD-7F63-4CC0-B663-29D331AAEF63">
       <ModulePath>Application.dll</ModulePath>
-      <ModuleTime>2021-05-16T02:24:45</ModuleTime>
+      <ModuleTime>2021-05-16T03:35:01</ModuleTime>
       <ModuleName>Application</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Application\DependencyInjection.cs" />
@@ -631,11 +631,11 @@
               <SequencePoints>
                 <SequencePoint vc="0" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="12" />
                 <SequencePoint vc="0" uspid="24" ordinal="1" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="0" uspid="28" ordinal="2" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="12" />
-                <SequencePoint vc="0" uspid="29" ordinal="3" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="25" ordinal="2" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="26" ordinal="3" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="12" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="23" ec="1" el="29" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="23" ec="1" el="26" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
@@ -1139,12 +1139,12 @@
               <SequencePoints>
                 <SequencePoint vc="0" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="23" />
                 <SequencePoint vc="0" uspid="24" ordinal="1" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="23" />
-                <SequencePoint vc="0" uspid="28" ordinal="2" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="23" />
-                <SequencePoint vc="0" uspid="29" ordinal="3" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="23" />
-                <SequencePoint vc="0" uspid="30" ordinal="4" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="25" ordinal="2" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="26" ordinal="3" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="0" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="23" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="23" ec="1" el="30" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="23" ec="1" el="27" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
@@ -1288,9 +1288,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="BD9217D9-CA9B-446B-B17B-2749039C50CD">
+    <Module hash="724E4171-4595-49E3-9CEC-DA80C68D8CB6">
       <ModulePath>Domain.dll</ModulePath>
-      <ModuleTime>2021-05-16T02:24:45</ModuleTime>
+      <ModuleTime>2021-05-16T03:35:01</ModuleTime>
       <ModuleName>Domain</ModuleName>
       <Files>
         <File uid="28" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Domain\Entities\Consultant.cs" />
@@ -1557,9 +1557,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="1B8ED926-7890-4A84-BF57-184E9E5F42FA">
+    <Module hash="CB05BC6C-849A-4319-8FB2-D8A4826C6E96">
       <ModulePath>Persistence.dll</ModulePath>
-      <ModuleTime>2021-05-16T02:24:45</ModuleTime>
+      <ModuleTime>2021-05-16T03:35:01</ModuleTime>
       <ModuleName>Persistence</ModuleName>
       <Files>
         <File uid="33" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Persistence\DependencyInjection.cs" />
@@ -2364,9 +2364,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="E7A5FB45-1573-4405-A5BA-E6CB292582DD">
+    <Module hash="2832FAA2-F1E6-40B4-B292-39B7D374B724">
       <ModulePath>Tests.Helpers.dll</ModulePath>
-      <ModuleTime>2021-05-16T02:24:45</ModuleTime>
+      <ModuleTime>2021-05-16T03:35:01</ModuleTime>
       <ModuleName>Tests.Helpers</ModuleName>
       <Files>
         <File uid="42" fullPath="C:\Fac\SysopSquadAccounts\Accounts\Tests.Helpers\UserFactories\RegisterUserCommandFactory.cs" />
@@ -3587,9 +3587,9 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="90C4B561-9AFB-4B5E-859B-9C0AEBCD1CAE">
+    <Module hash="42FF4F09-7FC0-4A95-AA3B-A63B1D46CCDD">
       <ModulePath>WebApi.dll</ModulePath>
-      <ModuleTime>2021-05-16T02:24:45</ModuleTime>
+      <ModuleTime>2021-05-16T03:35:01</ModuleTime>
       <ModuleName>WebApi</ModuleName>
       <Files>
         <File uid="49" fullPath="C:\Fac\SysopSquadAccounts\Accounts\WebApi\Program.cs" />
