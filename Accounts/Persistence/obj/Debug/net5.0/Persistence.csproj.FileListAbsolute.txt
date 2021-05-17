@@ -55,3 +55,22 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Application.pdb
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.Helpers.RepositoryErrors.resources
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.GenerateResource.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Persistence\obj\Debug\net5.0\Persistence.pdb

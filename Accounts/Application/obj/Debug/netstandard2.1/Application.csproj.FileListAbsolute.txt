@@ -41,3 +41,17 @@ E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
 E:\facultate\Anul III\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.deps.json
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Application.pdb
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Domain.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\bin\Debug\netstandard2.1\Domain.pdb
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.Helpers.ApplicationErrors.resources
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.GenerateResource.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CoreCompileInputs.cache
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.dll
+D:\TSP.NET\SysopSquadAccounts\Accounts\Application\obj\Debug\netstandard2.1\Application.pdb
