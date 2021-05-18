@@ -4,7 +4,8 @@
     {
        public static bool CheckNull(string parameter)
         {
-            if (!string.IsNullOrEmpty(parameter)) return true;
+            if (!string.IsNullOrEmpty(parameter))
+                return true;
             return false;
         }
     }

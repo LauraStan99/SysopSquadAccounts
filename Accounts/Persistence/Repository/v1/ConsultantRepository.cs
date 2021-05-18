@@ -41,49 +41,29 @@ namespace Persistence.Repository.v1
         {
             var foundEntity = await GetByIdAsync(consultant.Id);
 
-            if (UpdateHelper.CheckNull(consultant.Email)){ 
-
+            if (UpdateHelper.CheckNull(consultant.Email))
                 foundEntity.Email = consultant.Email;
-            }
 
             if (UpdateHelper.CheckNull(consultant.Username))
-            {
-
                 foundEntity.Username = consultant.Username;
-            }
 
             if (UpdateHelper.CheckNull(consultant.Location))
-            {
-
                 foundEntity.Location = consultant.Location;
-            }
 
             if (UpdateHelper.CheckNull(consultant.Availability))
-            {
-
                 foundEntity.Availability = consultant.Availability;
-            }
 
             if (UpdateHelper.CheckNull(consultant.Skill))
-            {
-
                 foundEntity.Skill = consultant.Skill;
-            }
 
             if (consultant.NumberOfTickets != 0)
-            {
                 foundEntity.NumberOfTickets = consultant.NumberOfTickets;
-            }
 
             if (consultant.TotalNumberOfTickets != 0)
-            {
                 foundEntity.TotalNumberOfTickets = consultant.TotalNumberOfTickets;
-            }
 
             if (consultant.SolvedNumberOfTickets != 0)
-            {
                 foundEntity.SolvedNumberOfTickets = consultant.SolvedNumberOfTickets;
-            }
 
             if (consultant.PasswordHash != null && consultant.PasswordSalt != null)
             {

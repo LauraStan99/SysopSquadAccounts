@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Data;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Application.Helpers;
@@ -16,12 +17,16 @@ namespace Application.Features.ConsultantFeatures.Queries.GetConsultantByIdQuery
         {
             _repository = repository;
         }
+
         public async Task<Consultant> Handle(GetConsultantByIdQuery request, CancellationToken cancellationToken)
         {
-            var entity = await _repository.GetByIdAsync(request.Id);
-            if (entity == null)
+            var consultant = await _repository.GetByIdAsync(request.Id);
+            if (consultant == null)
                 throw new ArgumentException("Consultant Not Found!", nameof(request));
-            return entity.HidePassword();
+            HttpRequestEvaluationsApi _request = new HttpRequestEvaluationsApi();
+            var averageScore = _request.GetAverageScore(consultant.Id);
+            consultant.Score = averageScore;
+            return consultant.HidePassword();
         }
     }
 }
