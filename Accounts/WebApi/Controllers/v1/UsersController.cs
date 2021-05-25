@@ -15,9 +15,7 @@ namespace WebApi.Controllers.v1
     [ApiVersion("1.0")]
     public class UsersController:BaseApiController
     {
-        public UsersController(IMediator mediator) : base(mediator)
-        {
-        }
+        public UsersController(IMediator mediator) : base(mediator) { }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -28,7 +26,7 @@ namespace WebApi.Controllers.v1
 
         [HttpGet("{id:length(24)}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        [AllowAnonymous]
+        // [AllowAnonymous]
         public async Task<IActionResult> GetById(string id)
         {
             try
