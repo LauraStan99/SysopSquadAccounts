@@ -16,6 +16,5 @@ namespace Application.Features.UserFeatures.Commands.UpdateUserByIdCommand
         public string Password { get; set; }
         public string Location { get; set; }
         public List<string> TicketsId { get; set; }
-
     }
 }

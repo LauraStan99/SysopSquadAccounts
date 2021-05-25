@@ -25,6 +25,5 @@ namespace Core.Tests.ConsultantTests
 
             result.Should().BeTrue();
         }
-
     }
 }

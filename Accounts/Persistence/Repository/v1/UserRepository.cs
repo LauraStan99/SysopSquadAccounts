@@ -20,22 +20,13 @@ namespace Persistence.Repository.v1
             var foundEntity = await GetByIdAsync(user.Id);
 
             if (UpdateHelper.CheckNull(user.Email))
-            {
-
                 foundEntity.Email = user.Email;
-            }
 
             if (UpdateHelper.CheckNull(user.Username))
-            {
-
                 foundEntity.Username = user.Username;
-            }
 
             if (UpdateHelper.CheckNull(user.Location))
-            {
-
                 foundEntity.Location = user.Location;
-            }
 
             if (user.PasswordHash != null && user.PasswordSalt != null)
             {
@@ -45,17 +36,11 @@ namespace Persistence.Repository.v1
 
             if (user.TicketsId.Count > 0)
             {
-                if(foundEntity.TicketsId.Count == 0)
-                {
+                if (foundEntity.TicketsId.Count == 0)
                     foundEntity.TicketsId = user.TicketsId;
-                }
                 else
-                {
-                    foreach(var ticket in user.TicketsId)
-                    {
+                    foreach (var ticket in user.TicketsId)
                         foundEntity.AddTicket(ticket);
-                    }
-                }
             }
             
             await _context.GetCollection<User>().ReplaceOneAsync(filter: user => user.Id == foundEntity.Id, replacement: foundEntity);

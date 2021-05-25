@@ -20,6 +20,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             mockRepo.Setup(db => db.CheckUniqueEmail(command.Email).Result).Returns(true);
             _validator = new RegisterConsultantCommandValidator(mockRepo.Object);
         }
+
         [Fact]
         public void GivenValidData_WhenValidateRegister_ThenReturnNoErrors()
         {
@@ -30,6 +31,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.IsValid.Should().BeTrue();
             result.ShouldNotHaveAnyValidationErrors();
         }
+
         [Fact]
         public void GivenShortPassword_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -44,6 +46,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenPasswordWithNoDigits_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -59,6 +62,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenNoPassword_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -74,6 +78,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenEmptyUsername_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -89,6 +94,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Password);
         }
+
         [Fact]
         public void GivenEmptyLocation_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -104,6 +110,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Password);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenEmptyEmail_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -119,6 +126,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenNoData_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -137,6 +145,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldHaveValidationErrorFor(c => c.Password)
                 .WithErrorMessage(ValidationErrors.EmptyPassword);
         }
+
         [Fact]
         public void GivenShortUsername_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -152,6 +161,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Password);
         }
+
         [Fact]
         public void GivenShortLocation_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -167,6 +177,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Password);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+
         [Fact]
         public void GivenInvalidEmail_WhenValidateRegister_ThenReturnValidationErrors()
         {
@@ -182,6 +193,7 @@ namespace Presentation.Tests.ValidatorsTests.ConsultantTests
             result.ShouldNotHaveValidationErrorFor(user => user.Location);
             result.ShouldNotHaveValidationErrorFor(user => user.Username);
         }
+        
         [Fact]
         public void GivenExistingEmail_WhenValidateRegister_ThenReturnValidationErrors()
         {

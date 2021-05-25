@@ -38,7 +38,6 @@ namespace Infrastructure.Tests.AccountTests
             result.Location.Should().Be(user.Location);
             result.Type.Should().Be(user.Type);
             result.TicketsId[0].Should().Be(user.TicketsId[0]);
-
         }
 
         [Fact]
@@ -56,7 +55,6 @@ namespace Infrastructure.Tests.AccountTests
             result.Location.Should().Be(consultant.Location);
             result.Availability.Should().Be(consultant.Availability);
             result.NumberOfTickets.Should().Be(consultant.NumberOfTickets);
-
         }
 
         [Fact]

@@ -2,9 +2,9 @@
 {
     public static class UpdateHelper
     {
-       public static bool CheckNull(string parameter)
+        public static bool CheckNull(string parameter)
         {
-            if (!string.IsNullOrEmpty(parameter))
+            if ( !string.IsNullOrEmpty(parameter) )
                 return true;
             return false;
         }

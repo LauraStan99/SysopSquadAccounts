@@ -23,7 +23,7 @@ namespace Application.Features.UserFeatures.Commands.UpdateUserByIdCommand
         public async Task<User> Handle(UpdateUserByIdCommand request, CancellationToken cancellationToken)
         {
             var newUser = _mapper.Map<User>(request);
-            if (!string.IsNullOrWhiteSpace(request.Password))
+            if ( !string.IsNullOrWhiteSpace(request.Password) )
             {
                 Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
                 newUser.PasswordHash = passwordHash;

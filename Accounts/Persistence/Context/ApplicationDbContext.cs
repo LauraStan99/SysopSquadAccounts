@@ -7,6 +7,7 @@ namespace Persistence.Context
     {
         private readonly IMongoDatabase _database;
         public MongoClient Client { get; set; }
+        
         public ApplicationDbContext(IAccountDatabaseSettings settings)
         {
             Client = new MongoClient(settings.ConnectionString);

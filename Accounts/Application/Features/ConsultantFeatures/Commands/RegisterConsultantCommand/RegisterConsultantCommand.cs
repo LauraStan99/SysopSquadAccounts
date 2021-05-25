@@ -9,7 +9,6 @@ namespace Application.Features.ConsultantFeatures.Commands.RegisterConsultantCom
         public string Location { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
         public string Availability { get; set; }
     }
 }

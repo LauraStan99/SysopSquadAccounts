@@ -27,16 +27,15 @@ namespace Application.Features.AccountFeatures.Commands.LoginCommand
             var consultant = await _repository.GetByEmailAsync<Consultant>(request.Email);
             var account = (user != null) ? (BaseEntity) user : consultant;
             var type = "";
-            if(account == user)
-            {
+
+            if (account == user)
                 type = user.Type;
-            }
             else
-            {
                 type = "Consultant";
-            }
-            if (!Password.VerifyPasswordHash(request.Password, account.PasswordHash, account.PasswordSalt))
+
+            if ( !Password.VerifyPasswordHash(request.Password, account.PasswordHash, account.PasswordSalt) )
                 throw new ArgumentException("Password doesn't match", nameof(request));
+                
             var entity = _mapper.Map<ResponseEntity>(account);
             entity.Type = type;
             return _repository.Login(entity).HidePassword();
