@@ -39,10 +39,10 @@ namespace Persistence.Repository.v1
         {
             var user = await GetByEmailAsync<User>(email);
             var consultant = await GetByEmailAsync<Consultant>(email);
+
             if (user == null && consultant == null)
-            {
                 return false;
-            }
+
             return true;
         }
 
@@ -58,10 +58,8 @@ namespace Persistence.Repository.v1
         public async Task<TEntity> UpdateAsync(TEntity entity)
         {
             var foundEntity = await GetByIdAsync(entity.Id);
-            if (foundEntity == null)
-            {
+            if (foundEntity == null) 
                 throw new ArgumentException(RepositoryErrors.UserNotFound);
-            }
 
             if (!string.IsNullOrWhiteSpace(entity.Email) && entity.Email != foundEntity.Email)
             {
@@ -70,15 +68,13 @@ namespace Persistence.Repository.v1
 
                 foundEntity.Email = entity.Email;
             }
+
             if (!string.IsNullOrWhiteSpace(entity.Username))
-            {
                 foundEntity.Username = entity.Username;
 
-            }
-            if (!string.IsNullOrWhiteSpace(entity.Location))
-            {
+            if (!string.IsNullOrWhiteSpace(entity.Location)) 
                 foundEntity.Location = entity.Location;
-            }
+                
             if (entity.PasswordHash != null && entity.PasswordSalt != null)
             {
                 foundEntity.PasswordHash = entity.PasswordHash;

@@ -11,6 +11,7 @@ namespace Application.Helpers
             entity.PasswordSalt = null;
             return entity;
         }
+        
         internal static Task<TEntity> HidePassword<TEntity>(this Task<TEntity> entity) where TEntity : BaseEntity
         {
             entity.Result.PasswordHash = null;

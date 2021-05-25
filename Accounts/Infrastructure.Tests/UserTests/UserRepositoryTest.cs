@@ -66,7 +66,6 @@ namespace Infrastructure.Tests.UserTests
             result.Location.Should().Be(user.Location);
             result.Type.Should().Be(user.Type);
             result.TicketsId[0].Should().Be(user.TicketsId[0]);
-
         }
 
         [Fact]

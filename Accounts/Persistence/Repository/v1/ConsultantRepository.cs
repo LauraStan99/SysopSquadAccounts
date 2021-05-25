@@ -26,12 +26,15 @@ namespace Persistence.Repository.v1
             var filter = Builders<Consultant>.Filter.And(skillFilter, availabilityFilter, locationFilter, numberOfTicketsFilter);
 
             var consultants = await _context.GetCollection<Consultant>().FindAsync<Consultant>(filter).Result.ToListAsync();
-            if(consultants.Count == 0)
+            if (consultants.Count == 0)
             {
                 filter = Builders<Consultant>.Filter.And(availabilityFilter, numberOfTicketsFilter);
                 consultants = await _context.GetCollection<Consultant>().FindAsync<Consultant>(filter).Result.ToListAsync();
             }
-            if (consultants.Count == 0) return _context.GetCollection<Consultant>().FindAsync(consultant => true).Result.FirstOrDefault();
+
+            if (consultants.Count == 0)
+                return _context.GetCollection<Consultant>().FindAsync(consultant => true).Result.FirstOrDefault();
+                
             var maxNumberOfTickets = consultants.Max(consultant => consultant.NumberOfTickets);
 
             return consultants.Find(consultant => consultant.NumberOfTickets == maxNumberOfTickets);

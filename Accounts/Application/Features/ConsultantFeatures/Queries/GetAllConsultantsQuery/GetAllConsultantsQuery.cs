@@ -4,7 +4,5 @@ using MediatR;
 
 namespace Application.Features.ConsultantFeatures.Queries.GetAllConsultantsQuery
 {
-    public class GetAllConsultantsQuery : IRequest<IEnumerable<Consultant>>
-    {
-    }
+    public class GetAllConsultantsQuery : IRequest<IEnumerable<Consultant>> { }
 }

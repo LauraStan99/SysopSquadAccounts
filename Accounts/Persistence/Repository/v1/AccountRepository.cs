@@ -19,11 +19,11 @@ namespace Persistence.Repository.v1
         {
             _context = context;
         }
+
         public async Task<TEntity> GetByEmailAsync<TEntity>(string email) where TEntity:BaseEntity
         {
             return await _context.GetCollection<TEntity>().Find<TEntity>(entity => entity.Email == email).FirstOrDefaultAsync();
         }
-
 
         public ResponseEntity Login(ResponseEntity entity)
         {

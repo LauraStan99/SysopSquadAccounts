@@ -26,7 +26,6 @@ namespace WebApi.Controllers.v1
 
         [HttpGet("{id:length(24)}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        // [AllowAnonymous]
         public async Task<IActionResult> GetById(string id)
         {
             try
@@ -75,6 +74,5 @@ namespace WebApi.Controllers.v1
             await Mediator.Send(command);
             return NoContent();
         }
-
     }
 }

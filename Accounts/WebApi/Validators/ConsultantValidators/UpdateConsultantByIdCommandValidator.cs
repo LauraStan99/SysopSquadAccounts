@@ -8,14 +8,17 @@ namespace WebApi.Validators.ConsultantValidators
     public class UpdateConsultantByIdCommandValidator : AbstractValidator<UpdateConsultantByIdCommand>
     {
         private readonly IConsultantRepository _repository;
+
         private enum ConsultantSkills
         {
             Software, Hardware, Hr
         };
+
         private enum ConsultantAvailability
         {
             Available, Away
         };
+        
         public UpdateConsultantByIdCommandValidator(IConsultantRepository repository)
         {
             _repository = repository;

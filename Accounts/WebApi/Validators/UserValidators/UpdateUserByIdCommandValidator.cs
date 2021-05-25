@@ -8,6 +8,7 @@ namespace WebApi.Validators.UserValidators
     public class UpdateUserByIdCommandValidator : AbstractValidator<UpdateUserByIdCommand>
     {
         private readonly IUserRepository _repository;
+        
         public UpdateUserByIdCommandValidator(IUserRepository repository)
         {
             _repository = repository;

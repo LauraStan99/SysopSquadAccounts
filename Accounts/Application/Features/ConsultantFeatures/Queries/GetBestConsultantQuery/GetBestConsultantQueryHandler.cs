@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace Application.Features.ConsultantFeatures.Queries.GetBestConsultantQuery
 {
-
     public class GetBestConsultantQueryHandler : IRequestHandler<GetBestConsultantQuery, Consultant>
     {
         private readonly IConsultantRepository _repository;
@@ -16,6 +15,7 @@ namespace Application.Features.ConsultantFeatures.Queries.GetBestConsultantQuery
         {
             _repository = repository;
         }
+
         public async Task<Consultant> Handle(GetBestConsultantQuery request, CancellationToken cancellationToken)
         {
             return await _repository.FindBestConsultant(request).HidePassword();

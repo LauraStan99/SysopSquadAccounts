@@ -24,6 +24,5 @@ namespace Application.Features.UserFeatures.Commands.RegisterUserCommand
             var user = _mapper.Map<User>(request);
             return await _repository.CreateAsync(user, request.Password).HidePassword();
         }
-
     }
 }

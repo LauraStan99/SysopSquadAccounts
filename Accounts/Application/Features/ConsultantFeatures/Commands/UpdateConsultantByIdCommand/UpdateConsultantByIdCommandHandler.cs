@@ -23,7 +23,7 @@ namespace Application.Features.ConsultantFeatures.Commands.UpdateConsultantByIdC
         public async Task<Consultant> Handle(UpdateConsultantByIdCommand request, CancellationToken cancellationToken)
         {
             var newConsultant = _mapper.Map<Consultant>(request);
-            if (!string.IsNullOrWhiteSpace(request.Password))
+            if ( !string.IsNullOrWhiteSpace(request.Password) )
             {
                 Password.CreatePasswordHash(request.Password, out byte[] passwordHash, out byte[] passwordSalt);
                 newConsultant.PasswordHash = passwordHash;

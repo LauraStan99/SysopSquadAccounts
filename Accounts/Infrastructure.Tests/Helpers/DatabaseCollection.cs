@@ -3,7 +3,5 @@
 namespace Infrastructure.Tests.Helpers
 {
     [CollectionDefinition("Database collection")]
-    public class DatabaseCollection : ICollectionFixture<DatabaseTest>
-    {
-    }
+    public class DatabaseCollection : ICollectionFixture<DatabaseTest> { }
 }

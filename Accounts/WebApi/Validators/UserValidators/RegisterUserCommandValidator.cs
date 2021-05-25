@@ -13,6 +13,7 @@ namespace WebApi.Validators.UserValidators
         {
             Client, Employee, CallCenter
         };
+        
         public RegisterUserCommandValidator(IUserRepository repository)
         {
             _repository = repository;

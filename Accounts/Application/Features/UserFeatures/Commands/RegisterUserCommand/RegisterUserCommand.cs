@@ -10,6 +10,5 @@ namespace Application.Features.UserFeatures.Commands.RegisterUserCommand
         public string Location { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
     }
 }
