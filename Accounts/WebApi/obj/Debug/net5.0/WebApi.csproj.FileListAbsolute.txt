@@ -270,3 +270,6 @@ D:\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.dll
 D:\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 D:\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.pdb
 D:\TSP.NET\SysopSquadAccounts\Accounts\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Fac\SysopSquadAccounts\Accounts\WebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

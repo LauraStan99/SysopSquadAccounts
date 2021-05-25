@@ -72,6 +72,7 @@ namespace WebApi.Controllers.v1
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [AllowAnonymous]
         public async Task<IActionResult> Update(UpdateUserByIdCommand command)
         {
             await Mediator.Send(command);
