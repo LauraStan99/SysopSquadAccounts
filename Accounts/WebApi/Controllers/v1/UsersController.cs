@@ -19,6 +19,7 @@ namespace WebApi.Controllers.v1
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await Mediator.Send(new GetAllUsersQuery()));
@@ -26,6 +27,7 @@ namespace WebApi.Controllers.v1
 
         [HttpGet("{id:length(24)}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(string id)
         {
             try

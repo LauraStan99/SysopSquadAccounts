@@ -19,6 +19,7 @@ namespace WebApi.Controllers.v1
         public ConsultantsController(IMediator mediator) : base(mediator) { }
 
         [HttpGet]
+        [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAll()
         {
@@ -27,6 +28,7 @@ namespace WebApi.Controllers.v1
 
         [HttpGet("{id:length(24)}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(string id)
         {
             try
@@ -41,6 +43,7 @@ namespace WebApi.Controllers.v1
 
         [HttpGet("best")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [AllowAnonymous]
         public async Task<IActionResult> GetBestConsultant([FromQuery(Name = "skill")] string skill,[FromQuery(Name = "location")] string location)
         {
             return Ok(await Mediator.Send(new GetBestConsultantQuery(skill, location)));
@@ -79,6 +82,7 @@ namespace WebApi.Controllers.v1
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [AllowAnonymous]
         public async Task<IActionResult> Update(UpdateConsultantByIdCommand command)
         {
             await Mediator.Send(command);
