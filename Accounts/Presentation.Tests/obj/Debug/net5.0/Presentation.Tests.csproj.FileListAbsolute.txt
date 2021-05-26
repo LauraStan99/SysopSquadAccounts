@@ -151,7 +151,6 @@ C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\WebApi.pd
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\Domain.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\Persistence.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.csproj.AssemblyReference.cache
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.AssemblyInfoInputs.cache
 C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.AssemblyInfo.cs
@@ -654,3 +653,6 @@ C:\work\facultate\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.
 C:\work\facultate\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\ref\Presentation.Tests.dll
 C:\work\facultate\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.pdb
 C:\work\facultate\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.genruntimeconfig.cache
+C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Fac\SysopSquadAccounts\Accounts\Presentation.Tests\obj\Debug\net5.0\Presentation.Tests.csprojAssemblyReference.cache

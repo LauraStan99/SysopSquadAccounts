@@ -305,7 +305,6 @@ C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\WebApi.
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\Application.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\Domain.pdb
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\Persistence.pdb
-C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.csproj.AssemblyReference.cache
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.AssemblyInfoInputs.cache
 C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.AssemblyInfo.cs
@@ -801,3 +800,6 @@ C:\work\facultate\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net
 C:\work\facultate\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\ref\Infrastructure.Tests.dll
 C:\work\facultate\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.pdb
 C:\work\facultate\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.genruntimeconfig.cache
+C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Fac\SysopSquadAccounts\Accounts\Infrastructure.Tests\obj\Debug\net5.0\Infrastructure.Tests.csprojAssemblyReference.cache
