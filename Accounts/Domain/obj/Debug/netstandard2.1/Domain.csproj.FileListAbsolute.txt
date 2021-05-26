@@ -35,3 +35,13 @@ D:\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.As
 D:\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
 D:\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
 D:\TSP.NET\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\work\facultate\SysopSquadAccounts\Accounts\Domain\obj\Debug\netstandard2.1\Domain.pdb

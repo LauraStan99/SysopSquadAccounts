@@ -8502,19 +8502,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {}
+    "C:\\Users\\asimion\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
+      "projectUniqueName": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
       "projectName": "Presentation.Tests",
-      "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\obj\\",
+      "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\Presentation.Tests.csproj",
+      "packagesPath": "C:\\Users\\asimion\\.nuget\\packages\\",
+      "outputPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Presentation.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asimion\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8528,11 +8532,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Fac\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
-              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj"
+            "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj": {
+              "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Tests.Helpers\\Tests.Helpers.csproj"
             },
-            "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj"
+            "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj"
             }
           }
         }
