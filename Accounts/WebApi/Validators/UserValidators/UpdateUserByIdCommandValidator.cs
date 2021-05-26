@@ -57,16 +57,6 @@ namespace WebApi.Validators.UserValidators
                     .Cascade(CascadeMode.Stop)
                     .MinimumLength(2).WithMessage(ValidationErrors.ShortLocation);
             });
-
-            When(user => user.TicketsId.Count != 0, () =>
-            {
-                RuleForEach(user => user.TicketsId)
-                    .Cascade(CascadeMode.Stop)
-                    .NotEmpty().WithMessage(ValidationErrors.EmptyId)
-                    .Length(24).WithMessage(ValidationErrors.InvalidIdLength)
-                    .Matches(idRegex).WithMessage(ValidationErrors.InvalidIdStructure);
-            });
-
         }
     }
 }
