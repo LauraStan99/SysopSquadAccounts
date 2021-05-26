@@ -30,10 +30,10 @@ namespace WebApi
                 config.ReportApiVersions = true;
             });
 
-            //services.AddCors((options) =>
-            //{
-            //    options.AddPolicy("MyPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
-            //});
+            services.AddCors((options) =>
+            {
+                options.AddPolicy("MyPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
 
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
@@ -90,7 +90,7 @@ namespace WebApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            //app.UseCors("MyPolicy");
+            app.UseCors("MyPolicy");
 
             app.UseAuthentication();
             app.UseAuthorization();
