@@ -6997,23 +6997,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asimion\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\a\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\asimion\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\WebApi\\obj\\",
+      "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+      "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\asimion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7027,11 +7023,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
-              "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj"
+            "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
+              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj"
             },
-            "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Persistence\\Persistence.csproj"
+            "C:\\Fac\\SysopSquadAccounts\\Accounts\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -7081,12 +7077,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.4, 5.0.4]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

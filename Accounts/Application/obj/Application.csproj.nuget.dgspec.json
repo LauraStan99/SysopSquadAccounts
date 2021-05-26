@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {}
+    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
+    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\asimion\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Application\\obj\\",
+        "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asimion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj"
+              "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj"
               }
             }
           }
@@ -87,20 +84,17 @@
         }
       }
     },
-    "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
+    "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\asimion\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\facultate\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
+        "projectPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "C:\\Fac\\SysopSquadAccounts\\Accounts\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asimion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
